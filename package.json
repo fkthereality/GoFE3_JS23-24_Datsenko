@@ -1,0 +1,40 @@
+{
+  "name": "exam",
+  "version": "1.0.1",
+  "description": "It is final exam work of course GoIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GGM",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.5"
+  },
+  "dependencies": {
+    "lodash": "^4.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fkthereality/GoFE3_JS_exam_Datsenko.git"
+  },
+  "keywords": [
+    "exam"
+  ],
+  "bugs": {
+    "url": "https://github.com/fkthereality/GoFE3_JS_exam_Datsenko/issues"
+  },
+  "homepage": "https://github.com/fkthereality/GoFE3_JS_exam_Datsenko#readme"
+}

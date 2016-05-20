@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GoFE3_JS23-24_Datsenko</title>
+
+    <meta charset="utf-8">
+
+    <script data-main="js/script" src="js/require.js"></script>
+
+
+</head>
+<body>
+
+<script type="text/template" id="wrapper-template">
+    <div class="wrapper">
+        <ul class="item-list"></ul>
+
+        <div class="controlls">
+            <input type="text" class="item-value" value="<%= editedValue %>">
+            <button class="item-add"><%= btnText %></button>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="list-template">
+    <% for (var item in data){ if (data.hasOwnProperty(item)) { %>
+    <li><%= data[item].value %> <span data-index="<%= item %>" class="item-delete">x</span> <span data-index="<%= item %>" class="item-edit">edit</span></li>
+    <% }}; %>
+
+
+</script>
+<div class="container"></div>
+
+
+
+</body>
+</html>
